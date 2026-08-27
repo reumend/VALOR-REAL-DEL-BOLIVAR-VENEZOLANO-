@@ -165,9 +165,12 @@ Este trabajo se comparte bajo licencia Creative Commons Atribución-NoComercial-
 
 ---
 
-VALOR REAL DEL BOLÍVAR VENEZOLANO Y CAPACIDAD DE PAGO DE LA DEUDA MUNDIAL
+
+VALOR REAL DEL BOLÍVAR VENEZOLANO FRENTE AL DÓLAR SEGÚN LA FÓRMULA B
 
 Teoría TBAC – Fórmula B de Revalorización Estructural
+
+Versión Corregida – Agosto 2026
 
 ---
 
@@ -181,9 +184,7 @@ El Forex solo sirve para ajustar diariamente el movimiento del PIB, la capitaliz
 
 2. La tokenización de la deuda pública: cómo los pasivos se convierten en activos colaterales
 
-El paso clave que permite la revalorización monetaria es la tokenización de la deuda pública mediante la emisión de criptobonos NFT. Este proceso transforma la deuda pública, que en la contabilidad tradicional es un pasivo que lastra la economía, en un activo colateral que respalda la emisión monetaria.
-
-Cuando el Estado emite criptobonos, lo que hace es representar digitalmente su deuda como un activo negociable y colateralizable. Estos criptobonos se convierten en parte del PIB ajustado (PIB_Ajustado = PIB + Criptobonos) y de la capitalización bursátil ajustada (Cap_Ajustada = Cap_Bursátil + Deuda), lo que eleva el respaldo estructural de la moneda.
+El paso clave que permite la revalorización monetaria es la tokenización de la deuda pública mediante la emisión de criptobonos NFT. Este proceso transforma la deuda pública, que en la contabilidad tradicional es un pasivo que lastra la economía, en un activo colateral que respalda la emisión monetaria. Cuando el Estado emite criptobonos, lo que hace es representar digitalmente su deuda como un activo negociable y colateralizable. Estos criptobonos se convierten en parte del PIB ajustado (PIB_Ajustado = PIB + Criptobonos) y de la capitalización bursátil ajustada (Cap_Ajustada = Cap_Bursátil + Deuda), lo que eleva el respaldo estructural de la moneda.
 
 La Fórmula B, al incluir estos criptobonos como parte del PIB ajustado y la deuda como parte de la capitalización ajustada, captura este efecto: el factor de revalorización R_reval se multiplica porque el denominador (la masa monetaria M2) se mantiene constante mientras el numerador (el respaldo real) aumenta. La deuda tokenizada ya no es una carga, sino un activo que respalda el valor del bolívar. Este es el principio fundamental del modelo TBAC: la tokenización convierte los pasivos en colateral, permitiendo que la moneda se revalorice sin necesidad de emisión inflacionaria.
 
@@ -191,18 +192,15 @@ La Fórmula B, al incluir estos criptobonos como parte del PIB ajustado y la deu
 
 3. La Fórmula B y el factor de confianza país
 
-Fórmula B (sin deuda)
-
+Fórmula B (sin deuda):
 R_reval = Φ × (PIB / M2) × (1 + Cap_Bursátil / M2)
 
-Fórmula B ajustada con deuda (método cruzado)
-
+Fórmula B ajustada con deuda (método cruzado):
 PIB_Ajustado = PIB + Criptobonos
 Cap_Ajustada = Cap_Bursátil + Deuda
 R_reval_ajustado = Φ × (PIB_Ajustado / M2) × (1 + Cap_Ajustada / M2)
 
-Factor de confianza país (Φ)
-
+Factor de confianza país (Φ):
 Φ = ((1 + i_nacional) / (1 + i_internacional)) × ((1 + π) / (1 + g_real)) × (1 / (1 + ρ_soberano))
 
 Donde:
@@ -217,16 +215,15 @@ Donde:
 
 4. Cálculo para Venezuela con datos al 24 de agosto de 2026
 
-Datos de entrada (en bolívares)
+Datos de entrada (en bolívares):
 
 · M2 (masa monetaria): 2.191.431,50 millones de Bs
 · PIB nominal: 87.344.000 millones de Bs
 · Capitalización bursátil: 9.879.000 millones de Bs
 · Deuda pública exigible: 125.546.128 millones de Bs
 · Criptobonos (deuda tokenizada): 111.422.188 millones de Bs
-· Factor de confianza país (Φ): 5,81
 
-Cálculo del factor de confianza (ejemplo Venezuela)
+Cálculo del factor de confianza (Φ) para Venezuela:
 
 · i_nacional = 59,38% = 0,5938
 · i_internacional = 3,50% = 0,035
@@ -240,27 +237,23 @@ Segundo factor: (1 + 5,76) / (1 + 0,04) = 6,76 / 1,04 = 6,5
 
 Tercer factor: 1 / (1 + 0,7193) = 1 / 1,7193 = 0,581
 
-Φ = 1,539 × 6,5 × 0,581 = 5,81
+Φ_Venezuela = 1,539 × 6,5 × 0,581 = 5,81
 
 ---
 
-4.1. Cálculo sin deuda
+4.1. Cálculo sin deuda para Venezuela
 
 PIB / M2 = 87.344.000 / 2.191.431,50 = 39,86
 
 Cap_Bursátil / M2 = 9.879.000 / 2.191.431,50 = 4,51
 
-1 + Cap_Bursátil / M2 = 5,51
+1 + Cap_Bursátil / M2 = 1 + 4,51 = 5,51
 
-R_reval = 5,81 × 39,86 × 5,51 = 1.276
-
-Valor de la masa monetaria sin deuda:
-2.191.431,50 millones × 1.276 = 2.796.266.594 millones USD
-= 2,79 cuatrillones de dólares
+R_reval_VE_sin_deuda = 5,81 × 39,86 × 5,51 = 1.276
 
 ---
 
-4.2. Cálculo con deuda (método cruzado)
+4.2. Cálculo con deuda para Venezuela
 
 PIB_Ajustado = 87.344.000 + 111.422.188 = 198.766.188
 
@@ -270,48 +263,113 @@ PIB_Ajustado / M2 = 198.766.188 / 2.191.431,50 = 90,73
 
 Cap_Ajustada / M2 = 135.425.128 / 2.191.431,50 = 61,82
 
-1 + Cap_Ajustada / M2 = 62,82
+1 + Cap_Ajustada / M2 = 1 + 61,82 = 62,82
 
-R_reval_ajustado = 5,81 × 90,73 × 62,82 = 33.111
-
-Valor de la masa monetaria con deuda:
-2.191.431,50 millones × 33.111 = 72.560.488.396,50 millones USD
-= 72,56 cuatrillones de dólares
+R_reval_VE_con_deuda = 5,81 × 90,73 × 62,82 = 33.111
 
 ---
 
-4.3. Valor de los componentes con deuda
+5. Cálculo para Estados Unidos con datos al 24 de agosto de 2026
 
-Valor de la deuda pública:
-125.546.128 millones × 1.276 = 160.196.859.328 millones USD
-= 160,19 cuatrillones de dólares
+Datos de entrada (en dólares):
 
-Valor de los criptobonos:
-111.422.188 millones × 1.276 = 142.174.711.888 millones USD
-= 142,17 cuatrillones de dólares
-
-Valor total con deuda (M2 + Deuda + Criptobonos):
-72,56 + 160,19 + 142,17 = 374,92 cuatrillones USD
-= 374.920.000.000.000.000 USD
+· M2: 21.914.315 millones de USD
+· PIB: 32.383.920 millones de USD
+· Capitalización bursátil: 55.000.000 millones de USD
+· Deuda pública: 33.000.000 millones de USD
+· Criptobonos: 0 (no aplica)
+· Φ_EEUU = 1,000 (país de referencia)
 
 ---
 
-5. Comparación con la deuda pública mundial
+5.1. Cálculo sin deuda para Estados Unidos
+
+PIB / M2 = 32.383.920 / 21.914.315 = 1,477
+
+Cap_Bursátil / M2 = 55.000.000 / 21.914.315 = 2,509
+
+1 + Cap_Bursátil / M2 = 1 + 2,509 = 3,509
+
+R_reval_USA_sin_deuda = 1,000 × 1,477 × 3,509 = 5,18
+
+---
+
+5.2. Cálculo con deuda para Estados Unidos
+
+PIB_Ajustado = 32.383.920 + 0 = 32.383.920
+
+Cap_Ajustada = 55.000.000 + 33.000.000 = 88.000.000
+
+PIB_Ajustado / M2 = 32.383.920 / 21.914.315 = 1,477
+
+Cap_Ajustada / M2 = 88.000.000 / 21.914.315 = 4,015
+
+1 + Cap_Ajustada / M2 = 1 + 4,015 = 5,015
+
+R_reval_USA_con_deuda = 1,000 × 1,477 × 5,015 = 7,40
+
+---
+
+6. Determinación del valor real del bolívar frente al dólar
+
+Método sin deuda:
+
+Valor real del bolívar frente al dólar (sin deuda) = R_reval_VE_sin_deuda / R_reval_USA_sin_deuda
+
+Valor real del bolívar frente al dólar (sin deuda) = 1.276 / 5,18 = 246,33
+
+Método con deuda:
+
+Valor real del bolívar frente al dólar (con deuda) = R_reval_VE_con_deuda / R_reval_USA_con_deuda
+
+Valor real del bolívar frente al dólar (con deuda) = 33.111 / 7,40 = 4.474,45
+
+---
+
+7. Comparación con el tipo de cambio del Forex
+
+El mercado Forex muestra un tipo de cambio de 784,66 Bs/USD, lo que implica que 1 bolívar equivale a 0,00127 dólares.
+
+Subvaloración del bolívar según el método sin deuda:
+
+Factor de subvaloración = 246,33 / 0,00127 = 193.960 veces
+
+Subvaloración del bolívar según el método con deuda:
+
+Factor de subvaloración = 4.474,45 / 0,00127 = 3.523.189 veces
+
+---
+
+8. Capacidad de pago de la deuda pública mundial
 
 Deuda pública mundial estimada (2026): 300 billones de dólares = 300.000.000.000.000 USD
 
-Sin deuda:
-2.796.266.594.000.000 / 300.000.000.000.000 = 9,32 veces
-Venezuela puede pagar la deuda mundial 9,32 veces.
+Masa monetaria de Venezuela (M2) en dólares según el valor real:
 
-Con deuda (incluyendo criptobonos):
-374.932.059.612.500.000 / 300.000.000.000.000 = 1.249,77 veces
-Venezuela puede pagar la deuda mundial 1.249 veces.
+Sin deuda: 2.191.431,50 millones de Bs × 246,33 USD/Bs = 539.000.000.000.000 USD
+
+Con deuda: 2.191.431,50 millones de Bs × 4.474,45 USD/Bs = 9.805.000.000.000.000 USD
+
+Capacidad de pago de la deuda mundial:
+
+Sin deuda: 539.000.000.000.000 / 300.000.000.000.000 = 1,79 veces
+
+Con deuda: 9.805.000.000.000.000 / 300.000.000.000.000 = 32,68 veces
 
 ---
 
-6. Conclusión
+9. Conclusión
 
-La tokenización de la deuda pública mediante criptobonos es el mecanismo que convierte los pasivos del Estado en activos colaterales que respaldan la revalorización monetaria. La Fórmula B ajustada con deuda captura este efecto al incluir los criptobonos en el PIB ajustado y la deuda en la capitalización bursátil ajustada. Esto eleva el factor de revalorización de 1.276 (sin deuda) a 33.111 (con deuda), multiplicando por 26 el valor real del bolívar.
+El valor real del bolívar frente al dólar, calculado con la Fórmula B sin deuda, es de 246,33 dólares por bolívar. Con la Fórmula B ajustada con deuda, el valor real es de 4.474,45 dólares por bolívar.
 
-El resultado es que la masa monetaria venezolana, valorada según la Fórmula B con deuda, equivale a 374,92 cuatrillones de dólares, suficiente para pagar la deuda pública mundial 1.249 veces. Venezuela puede pagar la deuda mundial 1.249 veces. La dolarización es innecesaria. Venezuela debe implementar el modelo TBAC, tokenizar su deuda, y revalorizar su moneda para capturar el valor real que el Forex le ha robado.
+El bolívar es la moneda con mayor respaldo estructural del mundo. La dolarización es innecesaria. Venezuela debe implementar el modelo TBAC, tokenizar su deuda, y revalorizar su moneda para capturar el valor real que el Forex le ha robado.
+
+Capacidad de pago de la deuda mundial:
+
+· Sin deuda: 1,79 veces la deuda mundial.
+· Con deuda: 32,68 veces la deuda mundial.
+
+---
+
+Enlace al repositorio:
+https://github.com/reumend/VALOR-REAL-DEL-BOLIVAR-VENEZOLANO-
