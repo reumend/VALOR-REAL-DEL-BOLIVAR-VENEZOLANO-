@@ -170,23 +170,27 @@ VALOR REAL DEL BOLÍVAR VENEZOLANO FRENTE AL DÓLAR SEGÚN LA FÓRMULA B
 
 Teoría TBAC – Fórmula B de Revalorización Estructural
 
-Versión Corregida – Agosto 2026
+Versión con 4 Casos Independientes – Agosto 2026
 
 ---
 
 1. El problema del Forex: un índice bursátil, no un determinante de valor
 
-El mercado Forex no fija el valor real de las monedas. Su función es similar a la de un índice bursátil (como el Dow Jones o el S&P 500): refleja el movimiento especulativo diario de la oferta y la demanda de divisas, pero no mide el respaldo estructural de una economía. El Forex es un mercado de expectativas, no de valoraciones fundamentales. Cuando el tipo de cambio sube o baja, lo que está haciendo es ajustar el precio de la moneda en función de las operaciones especulativas de los bancos, fondos de inversión y grandes corporaciones. No está midiendo el PIB real, la riqueza en recursos naturales, la capacidad productiva ni el respaldo financiero de un país. Por eso, en países con economías ricas pero con regímenes cambiarios distorsionados (como Venezuela), el Forex muestra un precio irrisorio que no se corresponde con la realidad económica.
+El mercado Forex no fija el valor real de las monedas. Su función es similar a la de un índice bursátil: refleja el movimiento especulativo diario de la oferta y la demanda de divisas, pero no mide el respaldo estructural de una economía. El Forex es un mercado de expectativas, no de valoraciones fundamentales. Cuando el tipo de cambio sube o baja, lo que está haciendo es ajustar el precio de la moneda en función de las operaciones especulativas de los bancos, fondos de inversión y grandes corporaciones. No está midiendo el PIB real, la riqueza en recursos naturales, la capacidad productiva ni el respaldo financiero de un país. Por eso, en países con economías ricas pero con regímenes cambiarios distorsionados, el Forex muestra un precio irrisorio que no se corresponde con la realidad económica.
 
 El Forex solo sirve para ajustar diariamente el movimiento del PIB, la capitalización bursátil y las variables macroeconómicas dentro de la Fórmula B. Es un insumo, no un veredicto. La Fórmula B es el verdadero modelo de valoración estructural porque integra la riqueza real de una nación: su producción, su masa monetaria, su capitalización bursátil y su capacidad de endeudamiento.
 
 ---
 
-2. La tokenización de la deuda pública: cómo los pasivos se convierten en activos colaterales
+2. La tokenización de la deuda pública y la capitalización de ingresos en divisas
 
-El paso clave que permite la revalorización monetaria es la tokenización de la deuda pública mediante la emisión de criptobonos NFT. Este proceso transforma la deuda pública, que en la contabilidad tradicional es un pasivo que lastra la economía, en un activo colateral que respalda la emisión monetaria. Cuando el Estado emite criptobonos, lo que hace es representar digitalmente su deuda como un activo negociable y colateralizable. Estos criptobonos se convierten en parte del PIB ajustado (PIB_Ajustado = PIB + Criptobonos) y de la capitalización bursátil ajustada (Cap_Ajustada = Cap_Bursátil + Deuda), lo que eleva el respaldo estructural de la moneda.
+El paso clave que permite la revalorización monetaria es la tokenización de la deuda pública mediante la emisión de criptobonos NFT, así como la capitalización de los ingresos futuros en divisas extranjeras. Ambos procesos transforman elementos que en la contabilidad tradicional son pasivos o flujos futuros en activos colaterales que respaldan la emisión monetaria.
 
-La Fórmula B, al incluir estos criptobonos como parte del PIB ajustado y la deuda como parte de la capitalización ajustada, captura este efecto: el factor de revalorización R_reval se multiplica porque el denominador (la masa monetaria M2) se mantiene constante mientras el numerador (el respaldo real) aumenta. La deuda tokenizada ya no es una carga, sino un activo que respalda el valor del bolívar. Este es el principio fundamental del modelo TBAC: la tokenización convierte los pasivos en colateral, permitiendo que la moneda se revalorice sin necesidad de emisión inflacionaria.
+Cuando el Estado emite criptobonos, representa digitalmente su deuda como un activo negociable y colateralizable. Estos criptobonos se convierten en parte del PIB ajustado y de la capitalización bursátil ajustada, lo que eleva el respaldo estructural de la moneda.
+
+De manera análoga, cuando el Estado recibe ingresos futuros garantizados en divisas extranjeras, esos flujos pueden capitalizarse como parte del respaldo de la moneda. Estos ingresos en divisas se añaden al PIB ajustado como riqueza nacional futura, fortaleciendo el numerador de la Fórmula B y elevando el factor de revalorización.
+
+La Fórmula B, al incluir estos elementos como parte del PIB ajustado y de la capitalización ajustada, captura este efecto: el factor de revalorización R_reval se multiplica porque el denominador se mantiene constante mientras el numerador aumenta. La deuda tokenizada y los ingresos en divisas ya no son cargas, sino activos que respaldan el valor del bolívar.
 
 ---
 
@@ -199,6 +203,16 @@ Fórmula B ajustada con deuda (método cruzado):
 PIB_Ajustado = PIB + Criptobonos
 Cap_Ajustada = Cap_Bursátil + Deuda
 R_reval_ajustado = Φ × (PIB_Ajustado / M2) × (1 + Cap_Ajustada / M2)
+
+Fórmula B ajustada con ingresos por venta de divisas (inversión extranjera):
+PIB_Ajustado_Venta = PIB + Divisas_Venta
+Cap_Ajustada_Venta = Cap_Bursátil + Divisas_Venta
+R_reval_venta = Φ × (PIB_Ajustado_Venta / M2) × (1 + Cap_Ajustada_Venta / M2)
+
+Fórmula B ajustada con ingresos por impuestos petroleros:
+PIB_Ajustado_Impuestos = PIB + Impuestos_Petroleros
+Cap_Ajustada_Impuestos = Cap_Bursátil + Impuestos_Petroleros
+R_reval_impuestos = Φ × (PIB_Ajustado_Impuestos / M2) × (1 + Cap_Ajustada_Impuestos / M2)
 
 Factor de confianza país (Φ):
 Φ = ((1 + i_nacional) / (1 + i_internacional)) × ((1 + π) / (1 + g_real)) × (1 / (1 + ρ_soberano))
@@ -222,6 +236,8 @@ Datos de entrada (en bolívares):
 · Capitalización bursátil: 9.879.000 millones de Bs
 · Deuda pública exigible: 125.546.128 millones de Bs
 · Criptobonos (deuda tokenizada): 111.422.188 millones de Bs
+· Divisas por inversión extranjera (venta): 100.000 millones USD convertidos a bolívares
+· Impuestos petroleros: 209.000 millones USD convertidos a bolívares
 
 Cálculo del factor de confianza (Φ) para Venezuela:
 
@@ -232,44 +248,135 @@ Cálculo del factor de confianza (Φ) para Venezuela:
 · ρ_soberano = 7.193 puntos básicos = 0,7193
 
 Primer factor: (1 + 0,5938) / (1 + 0,035) = 1,5938 / 1,035 = 1,539
-
 Segundo factor: (1 + 5,76) / (1 + 0,04) = 6,76 / 1,04 = 6,5
-
 Tercer factor: 1 / (1 + 0,7193) = 1 / 1,7193 = 0,581
-
 Φ_Venezuela = 1,539 × 6,5 × 0,581 = 5,81
 
+Conversión de divisas a bolívares:
+
+· Divisas por inversión extranjera: 100.000 millones USD × 784,66 Bs/USD = 78.466.000 millones Bs
+· Impuestos petroleros: 209.000 millones USD × 784,66 Bs/USD = 164.000.000 millones Bs
+
 ---
 
-4.1. Cálculo sin deuda para Venezuela
+5. Caso 1: Cálculo sin deuda
 
 PIB / M2 = 87.344.000 / 2.191.431,50 = 39,86
-
 Cap_Bursátil / M2 = 9.879.000 / 2.191.431,50 = 4,51
-
 1 + Cap_Bursátil / M2 = 1 + 4,51 = 5,51
-
 R_reval_VE_sin_deuda = 5,81 × 39,86 × 5,51 = 1.276
 
+Valor real del bolívar frente al dólar (sin deuda):
+R_reval_VE_sin_deuda / R_reval_USA_sin_deuda = 1.276 / 5,18 = 246,33
+
+Esto significa que, según el método sin deuda, 1 bolívar equivale a 246,33 dólares.
+
+Capacidad de pago de la deuda mundial:
+2.191.431,50 millones × 246,33 = 539.000.000.000.000 USD
+539.000.000.000.000 / 300.000.000.000.000 = 1,79 veces
+
+Venezuela puede pagar la deuda mundial 1,79 veces con este método.
+
+Subvaloración frente al Forex:
+El Forex muestra 1 Bs = 0,00127 USD.
+Factor de subvaloración = 246,33 / 0,00127 = 193.960 veces.
+
+El bolívar está subvalorado 193.960 veces por el Forex en este caso.
+
 ---
 
-4.2. Cálculo con deuda para Venezuela
+6. Caso 2: Cálculo con deuda
 
 PIB_Ajustado = 87.344.000 + 111.422.188 = 198.766.188
-
 Cap_Ajustada = 9.879.000 + 125.546.128 = 135.425.128
-
 PIB_Ajustado / M2 = 198.766.188 / 2.191.431,50 = 90,73
-
 Cap_Ajustada / M2 = 135.425.128 / 2.191.431,50 = 61,82
-
 1 + Cap_Ajustada / M2 = 1 + 61,82 = 62,82
-
 R_reval_VE_con_deuda = 5,81 × 90,73 × 62,82 = 33.111
+
+Valor real del bolívar frente al dólar (con deuda):
+R_reval_VE_con_deuda / R_reval_USA_con_deuda = 33.111 / 7,40 = 4.474,45
+
+Esto significa que, según el método con deuda, 1 bolívar equivale a 4.474,45 dólares.
+
+Capacidad de pago de la deuda mundial:
+2.191.431,50 millones × 4.474,45 = 9.805.000.000.000.000 USD
+9.805.000.000.000.000 / 300.000.000.000.000 = 32,68 veces
+
+Venezuela puede pagar la deuda mundial 32,68 veces con este método.
+
+Subvaloración frente al Forex:
+Factor de subvaloración = 4.474,45 / 0,00127 = 3.523.189 veces.
+
+El bolívar está subvalorado 3.523.189 veces por el Forex en este caso.
 
 ---
 
-5. Cálculo para Estados Unidos con datos al 24 de agosto de 2026
+7. Caso 3: Cálculo con ingresos por venta de divisas (inversión extranjera)
+
+Divisas_Venta = 78.466.000 millones Bs
+
+PIB_Ajustado_Venta = 87.344.000 + 78.466.000 = 165.810.000
+Cap_Ajustada_Venta = 9.879.000 + 78.466.000 = 88.345.000
+
+PIB_Ajustado_Venta / M2 = 165.810.000 / 2.191.431,50 = 75,67
+Cap_Ajustada_Venta / M2 = 88.345.000 / 2.191.431,50 = 40,31
+1 + Cap_Ajustada_Venta / M2 = 1 + 40,31 = 41,31
+
+R_reval_venta = 5,81 × 75,67 × 41,31
+R_reval_venta = 5,81 × 3.126,92 = 18.167,41
+
+Valor real del bolívar frente al dólar (con venta de divisas):
+R_reval_venta / R_reval_USA_con_deuda = 18.167,41 / 7,40 = 2.455,06
+
+Esto significa que, según el método con venta de divisas, 1 bolívar equivale a 2.455,06 dólares.
+
+Capacidad de pago de la deuda mundial:
+2.191.431,50 millones × 2.455,06 = 5.380.000.000.000.000 USD
+5.380.000.000.000.000 / 300.000.000.000.000 = 17,93 veces
+
+Venezuela puede pagar la deuda mundial 17,93 veces con este método.
+
+Subvaloración frente al Forex:
+Factor de subvaloración = 2.455,06 / 0,00127 = 1.933.118 veces.
+
+El bolívar está subvalorado 1.933.118 veces por el Forex en este caso.
+
+---
+
+8. Caso 4: Cálculo con ingresos por impuestos petroleros
+
+Impuestos_Petroleros = 164.000.000 millones Bs
+
+PIB_Ajustado_Impuestos = 87.344.000 + 164.000.000 = 251.344.000
+Cap_Ajustada_Impuestos = 9.879.000 + 164.000.000 = 173.879.000
+
+PIB_Ajustado_Impuestos / M2 = 251.344.000 / 2.191.431,50 = 114,69
+Cap_Ajustada_Impuestos / M2 = 173.879.000 / 2.191.431,50 = 79,35
+1 + Cap_Ajustada_Impuestos / M2 = 1 + 79,35 = 80,35
+
+R_reval_impuestos = 5,81 × 114,69 × 80,35
+R_reval_impuestos = 5,81 × 9.215,34 = 53.541,15
+
+Valor real del bolívar frente al dólar (con impuestos petroleros):
+R_reval_impuestos / R_reval_USA_con_deuda = 53.541,15 / 7,40 = 7.235,29
+
+Esto significa que, según el método con impuestos petroleros, 1 bolívar equivale a 7.235,29 dólares.
+
+Capacidad de pago de la deuda mundial:
+2.191.431,50 millones × 7.235,29 = 15.856.000.000.000.000 USD
+15.856.000.000.000.000 / 300.000.000.000.000 = 52,85 veces
+
+Venezuela puede pagar la deuda mundial 52,85 veces con este método.
+
+Subvaloración frente al Forex:
+Factor de subvaloración = 7.235,29 / 0,00127 = 5.697.079 veces.
+
+El bolívar está subvalorado 5.697.079 veces por el Forex en este caso.
+
+---
+
+9. Cálculo para Estados Unidos (referencia)
 
 Datos de entrada (en dólares):
 
@@ -280,94 +387,63 @@ Datos de entrada (en dólares):
 · Criptobonos: 0 (no aplica)
 · Φ_EEUU = 1,000 (país de referencia)
 
----
-
-5.1. Cálculo sin deuda para Estados Unidos
-
+Cálculo sin deuda para Estados Unidos:
 PIB / M2 = 32.383.920 / 21.914.315 = 1,477
-
 Cap_Bursátil / M2 = 55.000.000 / 21.914.315 = 2,509
-
 1 + Cap_Bursátil / M2 = 1 + 2,509 = 3,509
-
 R_reval_USA_sin_deuda = 1,000 × 1,477 × 3,509 = 5,18
 
----
-
-5.2. Cálculo con deuda para Estados Unidos
-
+Cálculo con deuda para Estados Unidos:
 PIB_Ajustado = 32.383.920 + 0 = 32.383.920
-
 Cap_Ajustada = 55.000.000 + 33.000.000 = 88.000.000
-
 PIB_Ajustado / M2 = 32.383.920 / 21.914.315 = 1,477
-
 Cap_Ajustada / M2 = 88.000.000 / 21.914.315 = 4,015
-
 1 + Cap_Ajustada / M2 = 1 + 4,015 = 5,015
-
 R_reval_USA_con_deuda = 1,000 × 1,477 × 5,015 = 7,40
 
 ---
 
-6. Determinación del valor real del bolívar frente al dólar
+10. Análisis de los 4 casos
 
-Método sin deuda:
+Caso 1 (sin deuda):
+El valor del bolívar es 246,33 dólares.
+Venezuela puede pagar la deuda mundial 1,79 veces.
+El bolívar está subvalorado 193.960 veces por el Forex.
+Este caso muestra el valor mínimo del bolívar, basado únicamente en el PIB y la capitalización bursátil.
 
-Valor real del bolívar frente al dólar (sin deuda) = R_reval_VE_sin_deuda / R_reval_USA_sin_deuda
+Caso 2 (con deuda):
+El valor del bolívar es 4.474,45 dólares.
+Venezuela puede pagar la deuda mundial 32,68 veces.
+El bolívar está subvalorado 3.523.189 veces por el Forex.
+La inclusión de la deuda y los criptobonos eleva el valor del bolívar 18,16 veces.
 
-Valor real del bolívar frente al dólar (sin deuda) = 1.276 / 5,18 = 246,33
+Caso 3 (con venta de divisas por inversión extranjera):
+El valor del bolívar es 2.455,06 dólares.
+Venezuela puede pagar la deuda mundial 17,93 veces.
+El bolívar está subvalorado 1.933.118 veces por el Forex.
+La capitalización de los ingresos por inversión extranjera eleva el valor del bolívar 9,96 veces respecto al caso 1.
 
-Método con deuda:
+Caso 4 (con impuestos petroleros):
+El valor del bolívar es 7.235,29 dólares.
+Venezuela puede pagar la deuda mundial 52,85 veces.
+El bolívar está subvalorado 5.697.079 veces por el Forex.
+La capitalización de los impuestos petroleros eleva el valor del bolívar 29,37 veces respecto al caso 1.
 
-Valor real del bolívar frente al dólar (con deuda) = R_reval_VE_con_deuda / R_reval_USA_con_deuda
-
-Valor real del bolívar frente al dólar (con deuda) = 33.111 / 7,40 = 4.474,45
-
----
-
-7. Comparación con el tipo de cambio del Forex
-
-El mercado Forex muestra un tipo de cambio de 784,66 Bs/USD, lo que implica que 1 bolívar equivale a 0,00127 dólares.
-
-Subvaloración del bolívar según el método sin deuda:
-
-Factor de subvaloración = 246,33 / 0,00127 = 193.960 veces
-
-Subvaloración del bolívar según el método con deuda:
-
-Factor de subvaloración = 4.474,45 / 0,00127 = 3.523.189 veces
-
----
-
-8. Capacidad de pago de la deuda pública mundial
-
-Deuda pública mundial estimada (2026): 300 billones de dólares = 300.000.000.000.000 USD
-
-Masa monetaria de Venezuela (M2) en dólares según el valor real:
-
-Sin deuda: 2.191.431,50 millones de Bs × 246,33 USD/Bs = 539.000.000.000.000 USD
-
-Con deuda: 2.191.431,50 millones de Bs × 4.474,45 USD/Bs = 9.805.000.000.000.000 USD
-
-Capacidad de pago de la deuda mundial:
-
-Sin deuda: 539.000.000.000.000 / 300.000.000.000.000 = 1,79 veces
-
-Con deuda: 9.805.000.000.000.000 / 300.000.000.000.000 = 32,68 veces
+Conclusión del análisis:
+El valor del bolívar aumenta progresivamente a medida que se incorporan más activos colaterales al respaldo de la moneda. La deuda pública, al ser tokenizada, y los ingresos en divisas, al ser capitalizados, se convierten en parte del PIB ajustado y de la capitalización ajustada, elevando el factor de revalorización. Los impuestos petroleros tienen el mayor impacto individual, elevando el valor del bolívar de 246,33 a 7.235,29 dólares por unidad.
 
 ---
 
-9. Conclusión
+11. Conclusión final
 
-El valor real del bolívar frente al dólar, calculado con la Fórmula B sin deuda, es de 246,33 dólares por bolívar. Con la Fórmula B ajustada con deuda, el valor real es de 4.474,45 dólares por bolívar.
+El valor real del bolívar frente al dólar, calculado con la Fórmula B, varía según el método utilizado:
 
-El bolívar es la moneda con mayor respaldo estructural del mundo. La dolarización es innecesaria. Venezuela debe implementar el modelo TBAC, tokenizar su deuda, y revalorizar su moneda para capturar el valor real que el Forex le ha robado.
+· Sin deuda: 246,33 dólares por bolívar.
+· Con deuda: 4.474,45 dólares por bolívar.
+· Con ingresos por venta de divisas (inversión extranjera): 2.455,06 dólares por bolívar.
+· Con ingresos por impuestos petroleros: 7.235,29 dólares por bolívar.
 
-Capacidad de pago de la deuda mundial:
-
-· Sin deuda: 1,79 veces la deuda mundial.
-· Con deuda: 32,68 veces la deuda mundial.
+El bolívar es la moneda con mayor respaldo estructural del mundo. La dolarización es innecesaria. Venezuela debe implementar el modelo TBAC, tokenizar su deuda, capitalizar sus ingresos en divisas, y revalorizar su moneda para capturar el valor real que el Forex le ha robado.
 
 ---
 
